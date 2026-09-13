@@ -16,7 +16,7 @@ SQL analysis of 2015 U.S. airline flight delays, cancellations, disruption drive
 
 - **LAX → SFO and SFO → LAX had the greatest operational impact among priority routes**, with **1,723** and **1,672** major disruptions respectively.
 
-- **SAN → SFO showed one of the strongest route-specific reliability gaps**, performing **5.37 percentage points worse than SAN's baseline** and **1.28 points worse than SFO's baseline**.
+- **SAN → SFO showed one of the strongest route-specific reliability gaps**, performing **5.37 percentage points worse than SAN's baseline** and **1.28 percentage points worse than SFO's baseline**.
 
 ## Recommendations
 
