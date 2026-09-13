@@ -4,21 +4,19 @@ SQL analysis of 2015 U.S. airline flight delays, cancellations, disruption drive
 
 ## Key Findings
 
-- **Delay and cancellation risk peaked at different times.** June had the highest delay rate at **23.48%**, while February had the highest cancellation rate at **4.78%**. This suggests the two peak periods were driven by different operational problems and should not be treated as one generic disruption issue.
+- **Delay and cancellation risk peaked at different times.** June had the highest delay rate at **23.48%**, while February had the highest cancellation rate at **4.78%**, indicating different operational disruption patterns.
 
-- **June's delay problem was dominated by late-aircraft and carrier-related delay minutes.** Late-aircraft delay represented **41.46%** of June delay minutes and airline/carrier delay another **31.15%**, together accounting for **72.61%**.
+- **Late-aircraft and carrier delays dominated June.** They accounted for **41.46%** and **31.15%** of delay minutes respectively, or **72.61% combined**.
 
-- **June was worse mainly because disruption was larger in scale, not because the cause mix changed dramatically.** Late-aircraft delay represented **41.46% in June versus 39.63% during the rest of 2015**, while the other major cause shares were also broadly similar. At the same time, June recorded **3.06 million late-aircraft delay minutes**, around **53.45% higher** than the average month across the other eleven months.
+- **June's deterioration was driven more by disruption scale than a different cause mix.** Late-aircraft delay represented **41.46% in June vs 39.63% during the rest of 2015**, but June generated **3.06M late-aircraft delay minutes**, **53.45% above** the average of the other months.
 
-- **February's cancellation spike was unusually weather-heavy.** Weather accounted for **75.29% of February cancellations versus 54.35% across 2015**. Carrier-related cancellations fell to **13.72% from a 28.11% annual share**, and National Air System cancellations fell to **10.99% from 17.52%**, pointing to weather as the distinguishing feature of February.
+- **February's cancellation spike was unusually weather-driven.** Weather accounted for **75.29% of cancellations vs 54.35% annually**, while carrier and NAS shares were below their annual baselines.
 
-- **ORD → LGA was the least reliable high-volume route by major disruption rate.** It recorded a **15.30% major disruption rate**, representing **1,605 disrupted flights out of 10,492 scheduled flights**.
+- **ORD → LGA was the least reliable high-volume route**, with a **15.30% major disruption rate** and **1,605 disrupted flights**.
 
-- **A high disruption rate alone was not enough to classify a route as a priority.** For example, BOS → LGA had a **14.33%** major disruption rate, but this was slightly below the **14.47% LGA destination baseline**. Comparing routes with airport baselines helps avoid treating broader airport-level problems as route-specific failures.
+- **LAX → SFO and SFO → LAX had the greatest operational impact among priority routes**, with **1,723** and **1,672** major disruptions respectively.
 
-- **LAX → SFO and SFO → LAX created the largest operational impact among the priority routes**, with **1,723** and **1,672** major disrupted flights respectively. Both routes also performed worse than their origin and destination airport baselines.
-
-- **SAN → SFO showed one of the clearest route-specific underperformance signals.** Its **11.91%** major disruption rate was **5.37 percentage points above the SAN origin baseline** and **1.28 points above the SFO destination baseline**.
+- **SAN → SFO showed one of the strongest route-specific reliability gaps**, performing **5.37 percentage points worse than SAN's baseline** and **1.28 points worse than SFO's baseline**.
 
 ## Recommendations
 
